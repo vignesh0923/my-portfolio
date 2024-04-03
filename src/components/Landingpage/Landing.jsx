@@ -25,7 +25,10 @@ const Landing = () => {
                 <h1>I am Vignesh !</h1>
                 <p style={{color:"#951af1"}}>{typewriter}</p>
                 <div>
-                <button className='cv-btn'>Dowload CV <span><FaCloudArrowDown /></span></button>
+                <button className='cv-btn'>
+                  Dowload CV
+                  <span><FaCloudArrowDown /></span>
+                  </button>
                 <div className='socail-media'>
               <p>  <IoLogoLinkedin /></p>
                 <p><FaSquareWhatsapp /></p>

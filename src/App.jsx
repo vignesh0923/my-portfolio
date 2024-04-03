@@ -17,9 +17,9 @@ const App = () => {
       <About/>
       <Titlelft titlee="Skill" hrr="s"/>
       <Skills/>
-      <Title hr="Projects"/>
+      <Title subtitle="Crafting Digital Experience" title="My" hr="Projects"/>
       <Projects/>
-      <Titlelft titlee="Contac" hrr="t"/>
+      <Titlelft titlee="Contact" hrr="Me" />
       <Contact/>
       </div>
      

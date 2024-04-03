@@ -39,14 +39,14 @@ const About = () => {
         </div>
 
         <div className="experience-1">
-        <p>(2023)</p>
+        <p>(September - November (2023))</p>
         <p>(2020 - 2023)</p>
         <p>(2020)</p>
         <p>(2018)</p>
         </div>
         
         <div className="experience-1">
-  <p>Error Makes Clever</p>
+  <p>Error Makes Clever Academy - Keeranur</p>
   <p>Annai Vailankanni Arts & Science College - Thanjavur</p>
   <p>ST. Antonys Higher Secondary School - Thanjavur</p>
   <p>ST . Marys Higher Secondary School - Pudukkottai</p>

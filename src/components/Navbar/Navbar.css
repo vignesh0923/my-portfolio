@@ -12,7 +12,10 @@
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(10px);
   z-index: 99999;
+}
 
+.nav-manu h2 {
+  font-size: 25px;
 }
 
 .menus {

@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
       <div className='nav-manu'>
         <div>
-          <p>Vignesh .M</p>
+          <h2 style={{fontWeight:"450"}}>Vignesh M</h2>
           </div>
           <div className='menus'>
             <p>Home</p>

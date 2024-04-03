@@ -39,6 +39,7 @@
   align-content: center;
 }
 
+
 .landing-1 .cv-btn:active{
     transform: scale(1.1);
     background: #951af1;

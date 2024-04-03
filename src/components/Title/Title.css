@@ -21,11 +21,13 @@
 .abt-slide .slide2{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center; 
 }
 
 .abt-slide .slide2 hr{
-    width: 700px;
+    width: 690px;
+    max-width: 690px;
+    flex-direction: row;
     height: 2px;
     border: dashed 2px  #951af1;
     outline: none;
