@@ -9,15 +9,7 @@ const About = () => {
       <div className="abt-container">
         <div>
           <p>
-            I am Vignesh from Pudukkottai, and I have completed my undergraduate
-            degree in Computer Application with a commendable CGPA of 8.38. As a
-            Junior MERN Stack Developer, I bring to the table a diverse skill
-            set encompassing HTML, CSS, JavaScript, ReactJS, NodeJS, MongoDB,
-            SQL, and ExpressJS. My passion lies in crafting seamless web
-            solutions that enhance user experiences. I am always eager to
-            collaborate on innovative projects and am committed to continuous
-            learning from the best in the field. Let's connect and work together
-            to create magic!
+          I am Vignesh from Pudukkottai, and I have completed my undergraduate degree in <span style={{color:"#951af1"}}>Computer Application</span> with a commendable <span  style={{color:"#951af1"}}>CGPA of 8.38</span> from <span  style={{color:"#951af1"}}>Annai Vailankanni Arts & Science College in Thanjavur</span>. As a Junior MERN Stack Developer, I bring to the table a diverse skill set encompassing <span  style={{color:"#951af1"}}>HTML, CSS, JavaScript, ReactJS, NodeJS, MongoDB, SQL, and ExpressJS.</span> My passion lies in crafting seamless web solutions that enhance user experiences. I am always eager to collaborate on innovative projects and am committed to continuous learning from the best in the field. Let's connect and work together to create magic
           </p>
         </div>
         <div>

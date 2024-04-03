@@ -2,8 +2,33 @@ import "./Contact.css";
 import { IoMdCall } from "react-icons/io";
 import { IoMail } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { toast } from "react-toastify";
 
 const Contact = () => {
+  const form = useRef();
+
+  const updateEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_g8pt4na', 'template_r40thib', form.current, {
+        publicKey: 'EJyg4ShHssJIT7mpn',
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          toast.success("Your Message Successfully Submitted");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          toast.error("Please Check Your Message");
+        }
+      );
+  };
+
+
   return (
     <div>
       <div className="contact-head">
@@ -43,10 +68,10 @@ const Contact = () => {
           </div>
         </div>
         <div className="right-container">
-          <form>
+          <form ref={form} onSubmit={updateEmail}>
             <div className="input-container">
               <div className="inputbox">
-                <input required="required" type="text" />
+                <input  type="text" name="user_Name" required />
                 <span>Name</span>
                 <i />
               </div>
@@ -54,7 +79,7 @@ const Contact = () => {
 
             <div className="input-container">
               <div className="inputbox">
-                <input required="required" type="email" />
+                <input  name="user_Mail"  type="email" required />
                 <span>Email</span>
                 <i />
               </div>
@@ -62,10 +87,14 @@ const Contact = () => {
 
             <div className="input-container">
               <div className="inputbox">
-                <input required="required" type="text" />
+                <input  name="user_Message" type="text" required />
                 <span>Message</span>
                 <i />
               </div>
+            </div>
+
+            <div className="input-container">
+            <input className="btnn" type="submit" value="Submit"/>
             </div>
           </form>
         </div>
