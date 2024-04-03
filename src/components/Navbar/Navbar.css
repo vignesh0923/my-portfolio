@@ -1,0 +1,59 @@
+.nav-manu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px 10px 40px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
+  z-index: 99999;
+
+}
+
+.menus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.menus p:hover {
+  color: #951af1;
+  transition: 0.2s ease-in-out;
+}
+
+.contact-btn {
+  font-size: 15px;
+  padding: 15px 25px 15px 25px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  background: #951af1;
+  color: white;
+  font-weight: 450;
+  font-family: "Outfit", sans-serif;
+}
+
+.sidebar-menu {
+  display: none;
+}
+
+.bar{
+    display: none;
+}
+
+@media (max-width:800px) {
+    
+    .menus{
+        display: none;
+    }
+
+    .bar{
+        display: block;
+    }
+}
