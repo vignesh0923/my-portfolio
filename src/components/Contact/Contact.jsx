@@ -71,7 +71,7 @@ const Contact = () => {
           <form ref={form} onSubmit={updateEmail}>
             <div className="input-container">
               <div className="inputbox">
-                <input  type="text" name="user_Name" required />
+                <input  type="text" name="user_name" required />
                 <span>Name</span>
                 <i />
               </div>
@@ -79,7 +79,7 @@ const Contact = () => {
 
             <div className="input-container">
               <div className="inputbox">
-                <input  name="user_Mail"  type="email" required />
+                <input  name="user_mail"  type="email" required />
                 <span>Email</span>
                 <i />
               </div>
@@ -87,7 +87,7 @@ const Contact = () => {
 
             <div className="input-container">
               <div className="inputbox">
-                <input  name="user_Message" type="text" required />
+                <input  name="user_message" type="text" required />
                 <span>Message</span>
                 <i />
               </div>

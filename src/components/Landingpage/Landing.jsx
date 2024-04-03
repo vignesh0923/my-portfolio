@@ -17,6 +17,10 @@ const Landing = () => {
   });
 
 
+  const handleDownload = () => {
+    window.location.href = 'file:///C:/Users/vigne/Downloads/vignesh%20RESUME%20-%20MERN%20STACK.pdf';
+  };
+
   return (
     <div>
         <div className='landing-container'>
@@ -25,8 +29,8 @@ const Landing = () => {
                 <h1>I am Vignesh !</h1>
                 <p style={{color:"#951af1"}}>{typewriter}</p>
                 <div>
-                <button className='cv-btn'>
-                  Dowload CV
+                <button className='cv-btn' onClick={handleDownload}>
+                  <a href="../../assets/vignesh RESUME - MERN STACK.pdf" download="Vignesh-Resume" style={{textDecoration:"none",color:"#951af1"}}>Dowload CV</a>
                   <span><FaCloudArrowDown /></span>
                   </button>
                 <div className='socail-media'>
