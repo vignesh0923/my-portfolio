@@ -125,60 +125,128 @@
   transform: scale(1.1);
 }
 
-
-
-
-
-
-
-@media (max-width:800px) {
-  .contact-container{
+@media (max-width: 800px) {
+  .contact-container {
     flex-direction: column;
     margin-left: 30%;
     gap: 50px;
   }
 }
 
-@media (max-width:600px) {
-  .contact-container{
+@media (max-width: 600px) {
+  .contact-container {
     flex-direction: column;
   }
 
-  .inputbox{
+  .inputbox {
     max-width: 400px;
   }
 }
-@media (max-width:360px) {
-  .contact-container{
+
+
+/* 
+@media (min-width: 400px) {
+  .contact-container {
     margin-left: 8%;
     margin-top: 70px;
   }
 
   .inputbox {
     max-width: 310px;
+  }
+
+  .left p {
+    font-size: 16px;
+  }
+
+  .abt-slide2 .slide22 {
+    font-size: 30px;
+  }
+
+  .abt-slide2 .slide22 hr {
+    max-width: 110px;
+  }
+
+  .abt-heading2 h1 {
+    font-size: 30px;
+  }
+
+  .contact-head p {
+    margin-left: 10px;
+  }
+
+  .btnn {
+    width: 130px;
+  }
+} */
+
+@media (max-width: 400px) {
+  .contact-container {
+    margin-left: 8%;
+    margin-top: 70px;
+  }
+
+  .inputbox {
+    width: 310px;
+  }
+
+  .left p {
+    font-size: 16px;
+  }
+
+  .abt-slide2 .slide22 {
+    font-size: 30px;
+  }
+
+  .abt-slide2 .slide22 hr {
+    max-width: 110px;
+  }
+
+  .abt-heading2 h1 {
+    font-size: 30px;
+  }
+
+  .contact-head p {
+    margin-left: 10px;
+  }
+
+  .btnn {
+    width: 130px;
+  }
 }
 
-.left p {
-  font-size: 16px;
-}
 
-.abt-slide2 .slide22{
-  font-size: 30px;
-}
+@media (max-width: 500px) {
+  .contact-container {
+    margin-left: 8%;
+    margin-top: 70px;
+  }
 
-.abt-slide2 .slide22 hr {
-  max-width: 110px;
-}
+  .inputbox {
+    max-width: 355px;
+  }
 
-.abt-heading2 h1{
-  font-size: 30px;
-}
+  .left p {
+    font-size: 16px;
+  }
 
-.contact-head p{
-  margin-left: 10px;
-}
+  .abt-slide2 .slide22 {
+    font-size: 30px;
+  }
 
-.btnn{
-  width: 130px
-}
+  .abt-slide2 .slide22 hr {
+    max-width: 140px;
+  }
+
+  .abt-heading2 h1 {
+    font-size: 30px;
+  }
+
+  .contact-head p {
+    margin-left: 10px;
+  }
+
+  .btnn {
+    width: 130px;
+  }
 }

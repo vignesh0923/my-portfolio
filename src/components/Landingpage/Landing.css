@@ -127,7 +127,7 @@
 }
 
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .landing-container{
     gap: 70px;
   }
@@ -146,5 +146,9 @@
 
   .experience-container{
     font-size: 13px;
+  }
+
+  .socail-media p{
+    font-size: 30px;
   }
 }

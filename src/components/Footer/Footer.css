@@ -49,7 +49,29 @@
     }
 }
 
-@media (max-width:360px) {
+@media (max-width:400px) {
+    .footer{
+        padding: 20px 30px;
+        flex-direction: column;
+
+    }
+
+    .footer-container{
+        height: auto;
+    }
+
+    .foot h4{
+        padding-bottom: 5px;
+        padding-top: 18px
+    }
+
+    .social p{
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width:500px) {
     .footer{
         padding: 20px 30px;
         flex-direction: column;
