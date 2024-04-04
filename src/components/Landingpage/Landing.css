@@ -98,6 +98,7 @@
   }
 
   .landing-container{
+    margin-top: 150px;
     padding: 0px 10px 0px 20px
   }
 }
@@ -122,5 +123,28 @@
     margin-top: 110px;
     flex-direction: column-reverse;
     padding: 0px 10px 0px 20px
+  }
+}
+
+
+@media (max-width: 425px) {
+  .landing-container{
+    gap: 70px;
+  }
+
+  .landing-1{
+    text-align: center;
+  }
+  .abt-container{
+    flex-direction: column-reverse;
+  }
+
+  .abt-container img{
+    width: 200px;
+    height: 250px;
+  }
+
+  .experience-container{
+    font-size: 13px;
   }
 }

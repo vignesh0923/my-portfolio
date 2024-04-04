@@ -77,12 +77,12 @@
 
 @media (max-width:800px) {
     .abt-slide .slide2 hr{
-        width: 300px;
+        width: 270px;
     }
 
 
     .abt-slide2 .slide22 hr{
-        width: 350px;
+        width: 324px;
     }
 }
 
@@ -96,5 +96,11 @@
     }
     .abt-slide2 .slide22 hr{
         width: 180px;
+    }
+}
+
+@media (max-width: 425px) {
+    .abt-slide{
+        font-size: 10px;
     }
 }
