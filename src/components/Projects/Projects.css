@@ -218,3 +218,25 @@ top: 40px;
     top: 0px;
   }
 }
+
+@media (max-width:360px) {
+  .abt-heading .abt-slide .slide2 hr {
+    max-width: 91px;
+}
+
+.abt-slide .slide2{
+  font-size: 30px;
+}
+
+.abt-heading h1{
+  font-size: 30px;
+}
+
+div .abt-heading{
+  margin-left: 29%;
+}
+
+.page-content{
+  margin: 40px auto;
+}
+}

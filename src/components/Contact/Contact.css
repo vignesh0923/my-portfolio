@@ -128,15 +128,8 @@
 
 
 
-@media (max-width:600px) {
-  .contact-container{
-    flex-direction: column;
-  }
 
-  .inputbox{
-    max-width: 400px;
-  }
-}
+
 
 @media (max-width:800px) {
   .contact-container{
@@ -146,18 +139,46 @@
   }
 }
 
+@media (max-width:600px) {
+  .contact-container{
+    flex-direction: column;
+  }
 
-@media (max-width: 425px) {
   .inputbox{
-    max-width: 270px;
-  }
-  .left p{
-    font-size: 15px;
-  }
-  .left{
-    margin-left: -11%;
+    max-width: 400px;
   }
 }
+@media (max-width:360px) {
+  .contact-container{
+    margin-left: 8%;
+    margin-top: 70px;
+  }
 
+  .inputbox {
+    max-width: 310px;
+}
 
+.left p {
+  font-size: 16px;
+}
 
+.abt-slide2 .slide22{
+  font-size: 30px;
+}
+
+.abt-slide2 .slide22 hr {
+  max-width: 110px;
+}
+
+.abt-heading2 h1{
+  font-size: 30px;
+}
+
+.contact-head p{
+  margin-left: 10px;
+}
+
+.btnn{
+  width: 130px
+}
+}

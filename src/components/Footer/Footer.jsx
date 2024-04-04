@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="foot">
                     <h3>Vignesh M</h3>
                     <p className="para">
-Trust in my expertise and commitment to excellence,<br /> and I'll collaborate wholeheartedly to bring innovative solutions,<br /> demonstrating professionalism and diligence at every step.</p>
+Trust in my expertise and commitment to excellence, and I'll collaborate<br></br> wholeheartedly to bring  innovative solutions, demonstrating professionalism<br></br> and diligence at every step.</p>
 <div className="social">
 <p>  <IoLogoLinkedin /></p>
                 <p><FaSquareWhatsapp /></p>

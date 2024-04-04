@@ -105,3 +105,21 @@
         margin-left: 5%;
     }
 }
+
+@media (max-width:360px) {
+    .abt-container p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    div .abt-container img {
+        width: 182px;
+        height: 229px;
+        padding: 20px;
+    }
+
+    .abt-container{
+        gap: 20px;
+    }
+
+}

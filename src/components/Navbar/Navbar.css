@@ -60,3 +60,10 @@
         display: block;
     }
 }
+
+
+@media (max-width: 360px) {
+  .nav-manu h2 {
+    font-size: 22px;
+}
+}

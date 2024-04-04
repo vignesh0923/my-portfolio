@@ -9,6 +9,7 @@ import Title from "./components/Title/Title"
 import Titlelft from "./components/Title/Titlelft"
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import Titlelft2 from "./components/Title/Titlelft2"
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
       <div>
         <Title subtitle="Let me Introduce Myself" title="About" hr="Me"/>
       <About/>
-      <Titlelft titlee="Skill" hrr="s"/>
+      <Titlelft2 titleee="Skill" hrrr="s"/>
       <Skills/>
       <Title subtitle="Crafting Digital Experience" title="My" hr="Projects"/>
       <Projects/>
