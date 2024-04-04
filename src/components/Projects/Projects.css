@@ -167,7 +167,7 @@ top: 40px;
   outline-offset: 3px;
 }
 
-@media (hover: hover) and (min-width: 600px) {
+
   .card:after {
     transform: translateY(0);
   }
@@ -210,7 +210,7 @@ top: 40px;
   .card:focus-within .content > *:not(.title) {
     transition-duration: 0s;
   }
-}
+
 
 @media (max-width:800px) {
   .content{
@@ -240,7 +240,7 @@ div .abt-heading{
 }
 
 .card:before{
-  width: 330px;
+  width: 350px;
 }
 
 }
@@ -276,7 +276,7 @@ div .abt-heading{
 
 @media (max-width:500px) {
   .abt-heading .abt-slide .slide2 hr {
-    min-width: 76px;
+    min-width: 87px;
 }
 
 .abt-slide .slide2{
@@ -288,7 +288,7 @@ div .abt-heading{
 }
 
 div .abt-heading{
-  margin-left: 35%;
+  margin-left: 29%;
 }
 
 .page-content{
@@ -296,7 +296,11 @@ div .abt-heading{
 }
 
 .card:before{
-  width: 400px;
+  width: 330px;
+}
+
+.content {
+  top: 30px;
 }
 
 }
