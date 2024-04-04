@@ -206,37 +206,9 @@
   transition-duration: 0s;
 }
 
-@media (max-width: 800px) {
-  .content {
-    top: 0px;
-  }
-}
 
-@media (max-width: 375px) {
-  .abt-heading .abt-slide .slide2 hr {
-    width: 91px;
-  }
 
-  .abt-slide .slide2 {
-    font-size: 30px;
-  }
 
-  .abt-heading h1 {
-    font-size: 30px;
-  }
-
-  div .abt-heading {
-    margin-left: 29%;
-  }
-
-  .page-content {
-    margin: 40px auto;
-  }
-
-  .card:before {
-    width: 350px;
-  }
-}
 
 @media (max-width: 400px) {
   .abt-heading .abt-slide .slide2 hr {
@@ -260,15 +232,19 @@
   }
 
   .card:before {
-    width: 345px;
+    min-width: 345px
   }
 }
+
+
 
 @media (max-width: 425px) {
   .card:before {
     max-width: 330px
   }
 }
+
+
 
 @media (max-width: 500px) {
   .abt-heading .abt-slide .slide2 hr {
@@ -297,5 +273,37 @@
 
   .content {
     top: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .content {
+    top: 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  .abt-heading .abt-slide .slide2 hr {
+    width: 91px;
+  }
+
+  .abt-slide .slide2 {
+    font-size: 30px;
+  }
+
+  .abt-heading h1 {
+    font-size: 30px;
+  }
+
+  div .abt-heading {
+    margin-left: 29%;
+  }
+
+  .page-content {
+    margin: 40px auto;
+  }
+
+  .card:before {
+    width: 370px;
   }
 }
