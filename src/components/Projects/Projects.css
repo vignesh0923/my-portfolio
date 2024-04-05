@@ -234,6 +234,10 @@
   .card:before {
     min-width: 345px
   }
+
+  .content {
+    top: 0px;
+  }
 }
 
 
@@ -271,7 +275,7 @@
     width: 400px;
   }
 
-  .content {
+  .page-content .content {
     top: 30px;
   }
 }
