@@ -19,7 +19,7 @@
 
 .landing-1 p {
   font-size: 26px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .landing-1 .cv-btn {
@@ -39,6 +39,14 @@
   align-content: center;
 }
 
+.landing-1 .pa {
+  width: 500px;
+  font-size: 22px;
+  text-align: justify;
+  color: #b1b2b3;
+  padding-bottom: 20px;
+  word-spacing: -3px; /* Adjust the value as needed */
+}
 
 .landing-1 .cv-btn:active{
     transform: scale(1.1);
@@ -52,7 +60,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin-top: 220px;
+  margin-top: 170px;
   padding: 0px 20px 0px 20px;
 }
 
@@ -86,6 +94,15 @@
 }
 
 @media (max-width:800px) {
+  .landing-1 .pa {
+    width: 300px;
+    font-size: 19px;
+    text-align: justify;
+    color: #b1b2b3;
+    padding-bottom: 20px;
+    word-spacing: -3px; /* Adjust the value as needed */
+  }
+
   .landing-1 h1{
     font-size: 40px;
   }
@@ -104,6 +121,14 @@
 }
 
 @media (max-width:600px) {
+  .landing-1 .pa {
+    width: 300px;
+    font-size: 19px;
+    text-align: justify;
+    color: #b1b2b3;
+    padding-bottom: 20px;
+    word-spacing: -1px; /* Adjust the value as needed */
+  }
   .landing-1 h1{
     font-size: 30px;
   }

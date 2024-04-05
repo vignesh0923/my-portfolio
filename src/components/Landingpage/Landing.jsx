@@ -29,6 +29,9 @@ const Landing = () => {
                 <h1>I am Vignesh !</h1>
                 <p style={{color:"#951af1"}}>{typewriter}</p>
                 <div>
+                  <div className='pa'>
+                  Trust in my expertise and commitment to excellence, and I'll collaborate wholeheartedly to bring  innovative solutions, demonstrating professionalism and diligence at every step.
+                  </div>
                 <button className='cv-btn' onClick={handleDownload}>
                   <a href="../../assets/vignesh RESUME - MERN STACK.pdf" download="Vignesh-Resume" style={{textDecoration:"none",color:"#951af1"}}>Dowload CV</a>
                   <span><FaCloudArrowDown /></span>
