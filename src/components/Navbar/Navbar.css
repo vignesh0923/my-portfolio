@@ -31,6 +31,7 @@
 }
 
 .contact-btn {
+  max-width: 200px;
   font-size: 15px;
   padding: 15px 25px 15px 25px;
   outline: none;
@@ -50,6 +51,58 @@
     display: none;
 }
 
+
+.side-nav {
+  width: 69%;
+  height: 100vh;
+  backdrop-filter:  blur(10px);
+  padding: 10px;
+  color: #006aff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: -85%;
+  z-index: 999999;
+  transition: 0.5s linear all;
+}
+.side-nav > .nav-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80vh;
+}
+
+.menus a {
+  text-decoration: none;
+  color: #006aff;
+}
+
+.menus button a{
+  text-decoration: none;
+  color:  white;
+}
+
+
+.nav-title a {
+  text-decoration: none;
+  color: #006aff;
+}
+
+.nav-title button a{
+  text-decoration: none;
+  color:  white;
+}
+
+.back-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
 @media (max-width:800px) {
     
     .menus{
@@ -66,4 +119,50 @@
   .nav-manu h2 {
     font-size: 22px;
 }
+}
+
+
+@media (max-width: 1366px) {
+  .side-nav {
+    display: block;
+  }
+  .side-nav > .nav-title {
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: space-around;
+  }
+  .nav-title p{
+    font-size: 15px;
+  }
+
+  .nav-title p{
+    gap: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .side-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .side-nav > .nav-title {
+    margin-top: 100px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-menus img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .nav-title p{
+    font-size: 20px;
+  }
 }

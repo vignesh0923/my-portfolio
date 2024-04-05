@@ -1,4 +1,8 @@
 .cv-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
     padding: 4px 2px;
     background: transparent;
     border: 2px solid #951af1;
@@ -14,7 +18,6 @@
     background: #951af1;
     color: white;
 }
-
 .abt-container{
     display: flex;
     flex-direction: row;

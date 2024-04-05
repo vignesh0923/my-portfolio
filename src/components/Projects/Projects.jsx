@@ -3,7 +3,7 @@ import "./Projects.css"
 const Projects = () => {
   return (
     <div> 
-<main className="page-content">
+<main id="projects" className="page-content">
   <div className="card">
     <div className="content">
       <h2 className="title">Netflix Clone</h2>

@@ -13,6 +13,11 @@
   cursor: pointer;
 }
 
+.socail-media a{
+  text-decoration: none;
+  color: white;
+}
+
 .socail-media p:hover{
   color:#951af1;
 }

@@ -17,13 +17,10 @@ const Landing = () => {
   });
 
 
-  const handleDownload = () => {
-    window.location.href = 'file:///C:/Users/vigne/Downloads/vignesh%20RESUME%20-%20MERN%20STACK.pdf';
-  };
 
   return (
     <div>
-        <div className='landing-container'>
+        <div id='home' className='landing-container'>
             <div className='landing-1'>
                 <h1>Hey,</h1>
                 <h1>I am Vignesh !</h1>
@@ -32,14 +29,14 @@ const Landing = () => {
                   <div className='pa'>
                   Trust in my expertise and commitment to excellence, and I'll collaborate wholeheartedly to bring  innovative solutions, demonstrating professionalism and diligence at every step.
                   </div>
-                <button className='cv-btn' onClick={handleDownload}>
-                  <a href="../../assets/vignesh RESUME - MERN STACK.pdf" download="Vignesh-Resume" style={{textDecoration:"none",color:"#951af1"}}>Dowload CV</a>
+                <button className='cv-btn' >
+                  <a href="vignesh RESUME - MERN STACK.pdf" download="Vignesh-Resume" style={{textDecoration:"none",color:"#951af1"}}>Check Resume</a>
                   <span><FaCloudArrowDown /></span>
                   </button>
                 <div className='socail-media'>
-              <p>  <IoLogoLinkedin /></p>
-                <p><FaSquareWhatsapp /></p>
-              <p>  <FaGithubSquare /></p>
+                <a href="https://www.linkedin.com/in/vigneshm2409/"><p>  <IoLogoLinkedin /></p></a>
+                <a href="https://wa.me/919003442739"><p><FaSquareWhatsapp /></p></a>
+              <a href="https://github.com/vignesh0923"><p><FaGithubSquare /></p></a>
                 </div>
             </div>
             </div>

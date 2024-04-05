@@ -19,6 +19,10 @@
     gap:5px;
 }
 
+.foot a{
+    text-decoration: none;
+}
+
 .foot h4,h3{
     padding-bottom: 10px;
     font-size: 19px;
