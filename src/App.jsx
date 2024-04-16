@@ -10,8 +10,14 @@ import Titlelft from "./components/Title/Titlelft"
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import Titlelft2 from "./components/Title/Titlelft2"
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react"
 
 const App = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div>
       <ToastContainer style={{ left: "60", zIndex:"999999" }}/>

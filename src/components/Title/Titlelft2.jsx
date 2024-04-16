@@ -6,10 +6,12 @@ const Titlelft2 = ({ titleee , subtitlee, hrrr }) => {
          <div className="abt-heading22">
         <div className="abt-slide22">
         <div>
-        <h1 className="slide222" style={{ color: "#951af1" }}><span><hr /></span>{titleee}</h1>
+        <h1 data-aos="fade-up"
+     data-aos-duration="1000" className="slide222" style={{ color: "#951af1" }}><span><hr /></span>{titleee}</h1>
         </div>
         <div>
-          <h1>{hrrr}</h1>
+          <h1 data-aos="fade-up"
+     data-aos-duration="1000">{hrrr}</h1>
         </div>
         </div>
       </div>

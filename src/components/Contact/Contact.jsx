@@ -32,12 +32,14 @@ const Contact = () => {
   return (
     <div>
       <div id="Contact Us" className="contact-head">
-        <p>Get in Touch</p>
+        <p data-aos="fade-right">Get in Touch</p>
       </div>
 
       <div className="contact-container">
-        <div className="left-container">
-          <div className="left">
+        <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom" className="left-container">
+          <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"  className="left">
             <div>
               <IoMdCall />
             </div>
@@ -47,7 +49,8 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="left">
+          <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom" className="left">
             <div>
               <IoMail />
             </div>
@@ -57,7 +60,8 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="left">
+          <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom" className="left">
             <div>
               <FaLocationDot />
             </div>
@@ -67,9 +71,10 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="right-container">
+        <div  className="right-container">
           <form ref={form} onSubmit={updateEmail}>
-            <div className="input-container">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom" className="input-container">
               <div className="inputbox">
                 <input  type="text" name="user_name" required />
                 <span>Name</span>
@@ -77,7 +82,8 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="input-container">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom" className="input-container">
               <div className="inputbox">
                 <input  name="user_mail"  type="email" required />
                 <span>Email</span>
@@ -85,7 +91,8 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="input-container">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom" className="input-container">
               <div className="inputbox">
                 <input  name="user_message" type="text" required />
                 <span>Message</span>
@@ -93,7 +100,8 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="input-container">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom" className="input-container">
             <input className="btnn" type="submit" value="Submit"/>
             </div>
           </form>

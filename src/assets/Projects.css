@@ -27,7 +27,7 @@
 }
 
 .card {
-  border-radius: 10px;
+    border-radius: 10px;
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -48,6 +48,7 @@
   }
 }
 .card:before {
+  
   content: "";
   position: absolute;
   top: 0;
@@ -121,7 +122,7 @@
 }
 
 .content {
-  top: 40px;
+top: 40px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -136,7 +137,7 @@
 }
 
 .title {
-  color: #951af1;
+    color: #951af1;
   font-size: 1.3rem;
   font-weight: 550;
   line-height: 1.2;
@@ -148,7 +149,7 @@
 }
 
 .btn {
-  font-family: "Outfit", sans-serif;
+    font-family: "Outfit", sans-serif;
   cursor: pointer;
   margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;
@@ -160,8 +161,10 @@
   color: white;
   background-color: black;
   border: none;
+  
 }
 .btn:hover {
+    
   background-color: #0d0d0d;
 }
 .btn:focus {
@@ -169,156 +172,47 @@
   outline-offset: 3px;
 }
 
-.btn a{
-  text-decoration: none;
-  color: white;
-}
-
-.card:after {
-  transform: translateY(0);
-}
-
-.content {
-  transform: translateY(calc(100% - 4.5rem));
-}
-.content > *:not(.title) {
-  opacity: 0;
-  transform: translateY(1rem);
-  transition: transform var(--d) var(--e), opacity var(--d) var(--e);
-}
-
-.card:hover,
-.card:focus-within {
-  align-items: center;
-}
-.card:hover:before,
-.card:focus-within:before {
-  transform: translateY(-4%);
-}
-.card:hover:after,
-.card:focus-within:after {
-  transform: translateY(-50%);
-}
-.card:hover .content,
-.card:focus-within .content {
-  transform: translateY(0);
-}
-.card:hover .content > *:not(.title),
-.card:focus-within .content > *:not(.title) {
-  opacity: 1;
-  transform: translateY(0);
-  transition-delay: calc(var(--d) / 8);
-}
-
-.card:focus-within:before,
-.card:focus-within:after,
-.card:focus-within .content,
-.card:focus-within .content > *:not(.title) {
-  transition-duration: 0s;
-}
-
-
-
-
-
-@media (max-width: 400px) {
-  .abt-heading .abt-slide .slide2 hr {
-    max-width: 69px;
-  }
-
-  .abt-slide .slide2 {
-    font-size: 30px;
-  }
-
-  .abt-heading h1 {
-    font-size: 30px;
-  }
-
-  div .abt-heading {
-    margin-left: 29%;
-  }
-
-  .page-content {
-    margin: 40px auto;
-  }
-
-  .card:before {
-    min-width: 345px
+@media (hover: hover) and (min-width: 600px) {
+  .card:after {
+    transform: translateY(0);
   }
 
   .content {
-    top: 0px;
+    transform: translateY(calc(100% - 4.5rem));
   }
-}
-
-
-
-@media (max-width: 425px) {
-  .card:before {
-    max-width: 330px
-  }
-}
-
-
-
-@media (max-width: 500px) {
-  .abt-heading .abt-slide .slide2 hr {
-    min-width: 87px;
+  .content > *:not(.title) {
+    opacity: 0;
+    transform: translateY(1rem);
+    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
   }
 
-  .abt-slide .slide2 {
-    font-size: 30px;
+  .card:hover,
+  .card:focus-within {
+    align-items: center;
+  }
+  .card:hover:before,
+  .card:focus-within:before {
+    transform: translateY(-4%);
+  }
+  .card:hover:after,
+  .card:focus-within:after {
+    transform: translateY(-50%);
+  }
+  .card:hover .content,
+  .card:focus-within .content {
+    transform: translateY(0);
+  }
+  .card:hover .content > *:not(.title),
+  .card:focus-within .content > *:not(.title) {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: calc(var(--d) / 8);
   }
 
-  .abt-heading h1 {
-    font-size: 30px;
-  }
-
-  div .abt-heading {
-    margin-left: 29%;
-  }
-
-  .page-content {
-    margin: 40px auto;
-  }
-
-  .card:before {
-    width: 400px;
-  }
-
-  .page-content .content {
-    top: 30px;
-  }
-}
-
-@media (max-width: 800px) {
-  .content {
-    top: 0px;
-  }
-}
-
-@media (max-width: 375px) {
-  .abt-heading .abt-slide .slide2 hr {
-    width: 91px;
-  }
-
-  .abt-slide .slide2 {
-    font-size: 30px;
-  }
-
-  .abt-heading h1 {
-    font-size: 30px;
-  }
-
-  div .abt-heading {
-    margin-left: 29%;
-  }
-
-  .page-content {
-    margin: 40px auto;
-  }
-
-  .card:before {
-    width: 370px;
+  .card:focus-within:before,
+  .card:focus-within:after,
+  .card:focus-within .content,
+  .card:focus-within .content > *:not(.title) {
+    transition-duration: 0s;
   }
 }

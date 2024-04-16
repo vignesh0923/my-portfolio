@@ -22,27 +22,27 @@ const Landing = () => {
     <div>
         <div id='home' className='landing-container'>
             <div className='landing-1'>
-                <h1>Hey,</h1>
-                <h1>I am Vignesh !</h1>
-                <p style={{color:"#951af1"}}>{typewriter}</p>
+                <h1 data-aos="zoom-in">Hey,</h1>
+                <h1 data-aos="zoom-in">I am Vignesh !</h1>
+                <p data-aos="zoom-in" style={{color:"#951af1"}}>{typewriter}</p>
                 <div>
-                  <div className='pa'>
+                  <div data-aos="zoom-in" className='pa'>
                   Trust in my expertise and commitment to excellence, and I'll collaborate wholeheartedly to bring  innovative solutions, demonstrating professionalism and diligence at every step.
                   </div>
-                <button className='cv-btn' >
+                <button data-aos="zoom-in" className='cv-btn' >
                   <a href="vignesh RESUME - MERN STACK.pdf" download="Vignesh-Resume" style={{textDecoration:"none",color:"#951af1"}}>Check Resume</a>
                   <span><FaCloudArrowDown /></span>
                   </button>
                 <div className='socail-media'>
-                <a href="https://www.linkedin.com/in/vigneshm2409/"><p>  <IoLogoLinkedin /></p></a>
-                <a href="https://wa.me/919003442739"><p><FaSquareWhatsapp /></p></a>
-              <a href="https://github.com/vignesh0923"><p><FaGithubSquare /></p></a>
+                <a data-aos="zoom-in" href="https://www.linkedin.com/in/vigneshm2409/"><p>  <IoLogoLinkedin /></p></a>
+                <a data-aos="zoom-in" href="https://wa.me/919003442739"><p><FaSquareWhatsapp /></p></a>
+              <a data-aos="zoom-in" href="https://github.com/vignesh0923"><p><FaGithubSquare /></p></a>
                 </div>
             </div>
             </div>
         
        
-        <div className='landing-2'>
+        <div data-aos="zoom-in" className='landing-2'>
             <img src={vicky} alt="" />
         </div>
         </div>
