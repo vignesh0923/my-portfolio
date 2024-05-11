@@ -13,6 +13,7 @@ import Titlelft2 from "./components/Title/Titlelft2"
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react"
+import Experinece from "./components/Experience/Experinece"
 
 const App = () => {
   useEffect(() => {
@@ -26,6 +27,8 @@ const App = () => {
       <div>
         <Title subtitle="Let me Introduce Myself" title="About" hr="Me"/>
       <About/>
+      <Titlelft2 titleee="Experienc" hrrr="e"/>
+      <Experinece/>
       <Titlelft2 titleee="Skill" hrrr="s"/>
       <Skills/>
       <Title subtitle="Crafting Digital Experience" title="My" hr="Projects"/>
