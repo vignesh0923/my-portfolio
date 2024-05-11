@@ -2,7 +2,7 @@ import "./Experience.css";
 const Experinece = () => {
   return (
     <div>
-      <div className="experience-cont">
+      <div id="experience" className="experience-cont">
         <div className="exp-heading">
           <div className="exp-hed">
             <h4>Web Designer - Internship</h4>

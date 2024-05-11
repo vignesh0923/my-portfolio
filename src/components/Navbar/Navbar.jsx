@@ -19,6 +19,7 @@ const Navbar = () => {
         <div className="nav-title">
             <a href="#home"><p>Home</p></a>
                 <a href="#About Us"><p>About us</p></a>
+                <a href="#experience"><p>Experience</p></a>
                 <a href="#Skills"><p>Skills</p></a>
                 <a href="#projects"><p>Projects</p></a>
                 <button className='contact-btn'> <a href="#Contact Us">Contact Us</a></button>
@@ -32,6 +33,7 @@ const Navbar = () => {
           <div className='menus'>
           <a href="#home"><p>Home</p></a>
                 <a href="#About Us"><p>About us</p></a>
+                <a href="#experience"><p>Experience</p></a>
                 <a href="#Skills"><p>Skills</p></a>
                 <a href="#projects"><p>Projects</p></a>
                 <button className='contact-btn'> <a href="#Contact Us">Contact Us</a></button>
